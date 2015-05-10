@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Grosse Prog Sommer 2015</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }       
+        body{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            min-height: 100%;
+        }
+        .editor{
+            width: 100%;
+            height: 300px;
+        }
+        .footer{
+            position: absolute;
+        }
+        .avatar{
+            margin-top: -8px;
+            margin-bottom: -8px;
+            margin-right: 5px;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <span class="navbar-brand">Große Prog Sommer 2015</span>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Konfiguration</h1>
+                <div id="config" class="editor">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1>Eingabedatei</h1>
+                <div id="input" class="editor">
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <button id="start" class="btn btn-primary">Start</button>
+            </div>
+            <div class="col-md-12">
+                <h1>Ausgabe</h1>
+                <div id="output">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <div id="navbar" class="collapse navbar-collapse">
+                <p class="navbar-text navbar-right">2015, made with <span class="glyphicon glyphicon-heart"></span> by <a href="mailto:marius@politze.net">M. Politze</a></p>
+            </div>            
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.9/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/1.0.1/js/md5.min.js"></script>
+    <script src="matsea.time.js"></script>
+    <script src="matsea.helper.js"></script>
+    <script src="matsea.analytics.js"></script>
+    <script src="matsea.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
