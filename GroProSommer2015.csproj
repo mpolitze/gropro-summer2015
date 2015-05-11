@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.png" />
     <Content Include="main.js" />
     <Content Include="matsea.analytics.js" />
     <Content Include="worker.js" />
